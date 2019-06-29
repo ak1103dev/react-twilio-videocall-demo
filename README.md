@@ -15,4 +15,5 @@ demo video call feature in web app with ReactJS
 
 ## Reference
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Twilio video-quickstart-js](https://github.com/twilio/video-quickstart-js)
