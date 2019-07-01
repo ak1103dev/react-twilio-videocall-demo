@@ -15,12 +15,12 @@ export function attachTracks(tracks, container) {
 // Attach the Participant's Tracks to the DOM.
 export function attachParticipantTracks(participant, container) {
   var tracks = Array.from(participant.tracks.values())
-    .filter(function (publication) {
-      return publication.track;
-    })
-    .map(function (publication) {
-        return publication.track;
-    });
+    // .filter(function (publication) {
+    //   return publication.track;
+    // })
+    // .map(function (publication) {
+    //     return publication.track;
+    // });
   attachTracks(tracks, container);
 }
 
@@ -36,12 +36,12 @@ export function detachTracks(tracks) {
 // Detach the Participant's Tracks from the DOM.
 export function detachParticipantTracks(participant) {
   var tracks = Array.from(participant.tracks.values())
-    .filter(function (publication) {
-      return publication.track;
-    })
-    .map(function (publication) {
-        return publication.track;
-    });
+    // .filter(function (publication) {
+    //   return publication.track;
+    // })
+    // .map(function (publication) {
+    //     return publication.track;
+    // });
   detachTracks(tracks);
 }
 
